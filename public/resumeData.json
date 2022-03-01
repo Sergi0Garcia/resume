@@ -1,0 +1,93 @@
+{
+  "main": {
+    "name":"Sergio Garcia",
+    "description":"Software Engineer",
+    "image":"profilepic.jpg",
+    "bio":"Seeking for disruptive innovation. I consider myself a passionate and hardworking leader. Always looking for new experiences and improvement. Experience in public speaking, management and productivity.",
+    "email": "sergio.fgg@gmail.com",
+    "github":"https://github.com/Sergi0Garcia",
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/sergiogarciaglz/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Sergi0Garcia",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Tecnologico de Monterrey",
+        "degree":"Mechatronics Engineer",
+        "graduated":"August 2017 - July 2021",
+        "description":"Awards - Academic Talent Scholarship, Excellence Scholarship for Masters Degree,Student Development Diploma, Best Grade Award, Campus Ambassador, Presidentof Student Group 18th Hole, Vice President of the International Engineer ProgramStudent Society, Financial and Founder Board Member at Enactus, Member of theRepresentative Soccer Team, Winner Entrepreneurship Challenge"
+      },
+      {
+        "school":"University of Stuttgart",
+        "degree":"Summer Program,",
+        "graduated":"May 2019 - July 2019",
+        "description":"Student and Trip Planner - International Business and Advanced German courses. Planned several road trips for ~ 10 students."
+      }
+    ],
+    "work":[
+      {
+        "company":"Atrato",
+        "title":"Tech Lead",
+        "years":"November 2021 - Present",
+        "description":"Lead of an Engineer team of 3 Software Developers, work closely with Product team to develop and deploy features."
+      },
+      {
+        "company":"Atrato",
+        "title":"Software Engineer",
+        "years":"January 2020 - December 2021",
+        "description":"Atrato is a BNPL Fintech in Mexico backed by Y Combinator. Raised ~ 18 Million USD. Build platform from and services from scratch. https://www.atratopago.com"
+      }, 
+      {
+        "company":"Tecnologico de Monterrey",
+        "title":"Campus Ambassador",
+        "years":"August 2019 - July 2020",
+        "description":"University Representative - Representing institution values by inspiring othersthrough personal experiences. Speaker in sessions influencing around 200 possiblecandidates and guiding students in campus."
+      }, 
+      {
+        "company":"Fluxing Engineer",
+        "title":"Mechatronics Engineer",
+        "years":"August 2019 - January 2020",
+        "description":"Project Manager and Software Engineer - Developed Autonomous Guided Vehicle(AGV) from scratch with mobile application and monitoring system. Awarded bestproject from department."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Javascript",
+        "level":"90%"
+      },
+      {
+        "name":"Typescript",
+        "level":"85%"
+      },
+      {
+        "name":"React",
+        "level":"80%"
+      },
+      {
+        "name":"Test drive development (JEST)",
+        "level":"60%"
+      },
+      {
+        "name":"C++",
+        "level":"50%"
+      },
+      {
+        "name":"MYSQL",
+        "level":"70%"
+      }
+    ]
+  }
+}
