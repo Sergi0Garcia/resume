@@ -1,0 +1,18 @@
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - npm i npm@^8.3.2 -g
+      - pip install --upgrade pip
+      - pip install --upgrade awscli
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run $BUILD_COMMAND
+  post_build:
+    commands:
+      - aws s3 sync ./build $S3_BUCKET
+      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/*"
