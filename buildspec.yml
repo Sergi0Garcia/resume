@@ -13,8 +13,7 @@ phases:
       - npm install
   build:
     commands:
-      - npm run $BUILD_COMMAND
+      - npm run build
   post_build:
     commands:
-      - aws s3 sync ./build $S3_BUCKET
-      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/*"
+      - aws s3 sync ./build serchgarcia.com
